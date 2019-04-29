@@ -1,0 +1,12 @@
+{
+    "products": [
+        {
+            "name": "The Little Prince",
+            "upc": 12345,
+            "price": {
+                "code": "USD",
+                "value": 20.25
+            }
+        }
+    ]
+}
