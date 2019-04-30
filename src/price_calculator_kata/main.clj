@@ -15,12 +15,12 @@
         (json/read-str (slurp (io/resource "data.json")) :key-fn keyword)
         products
         (json/read-str (slurp (io/resource "product.json")) :key-fn keyword)]
-    (map
-     report/report
-     (map (fn [x]
-            (calculator/construct-calculator x records))
-          (get products :products)))))
+    (doseq [calc  (map (fn [x]
+                         (calculator/construct-calculator x records))
+                       (get products :products))]
+      (report/report calc)
+    )))
 
 (defn -main
   "I don't do a whole lot ... yet."
-  [& args] (main))
+  [& args] (main args))
