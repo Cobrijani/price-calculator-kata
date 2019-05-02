@@ -1,10 +1,10 @@
 name:                price-calculator-kata
 version:             0.1.0.0
-github:              "githubuser/price-calculator-kata"
+github:              "Cobrijani/price-calculator-kata"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2019 Author name here"
+author:              "Stefan Bratic"
+maintainer:          "cobrijanI@gmail.com"
+copyright:           "2019 Stefan Bratic"
 
 extra-source-files:
 - README.md
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/price-calculator-kata#readme>
+description: Please see the README on GitHub at <https://github.com/Cobrijani/price-calculator-kata/blob/master/haskell/README.md>
 
 dependencies:
 - base >= 4.7 && < 5
